@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+body {
+    background: url("../img/img.jpeg"), linear-gradient(blue, pink);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    /*
+    background-position: center;
+    background-repeat: no-repeat;
+    */
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 55vw !important;
+  height: 75vh !important;
+}
